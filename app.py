@@ -58,5 +58,6 @@ else:
     col1, col2 = st.columns(2)
     col1.metric("Historischer Median", f"{median_zeit/60:.1f} min")
     col1.metric("Hilfsfrist-Quote", f"{quote*100:.1f}%")
+    col1.caption("Anteil der Einsätze mit Eintreffzeit ≤ 8 Minuten — medizinisch begründete Grenze, kein gesetzliches Limit (Berlins eigenes Schutzziel liegt bei 10–11 Minuten für 90% der Fälle).")
     col1.caption(f"Basiert auf {n} Einsätzen")
     col2.metric("Modell-Vorhersage", f"{vorhersage/60:.1f} min")
