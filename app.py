@@ -6,6 +6,7 @@ import folium
 from streamlit_folium import st_folium
 
 df_stats = pd.read_csv("app/data/bezirk_kategorie_hilfsfrist.csv")
+df_krit = pd.read_csv("app/data/bezirk_kategorie_kritikalitaet.csv")
 geojson = json.load(open("app/berlin_bezirke.geojson"))
 modell = joblib.load("app/data/rf_reg_kategorie.pkl")
 feature_spalten = joblib.load("app/data/feature_spalten_kategorie.pkl")
@@ -61,3 +62,17 @@ else:
     col1.caption("Anteil der Einsätze mit Eintreffzeit ≤ 8 Minuten — medizinisch begründete Grenze, kein gesetzliches Limit (Berlins eigenes Schutzziel liegt bei 10–11 Minuten für 90% der Fälle).")
     col1.caption(f"Basiert auf {n} Einsätzen")
     col2.metric("Modell-Vorhersage", f"{vorhersage/60:.1f} min")
+
+    st.subheader("Verteilung nach Dringlichkeitsstufe (AMPDS)")
+    krit_zeile = df_krit[
+        (df_krit["bezirk"] == bezirk) &
+        (df_krit["kategorie_raw"] == kategorie_raw)
+    ]
+    if krit_zeile.empty:
+        st.caption("Keine ausreichend verlässliche Aufschlüsselung für diese Kombination verfügbar.")
+    else:
+        reihenfolge = ["O", "A", "B", "C", "D", "E", "unbekannt"]
+        krit_zeile = krit_zeile.set_index("criticality")
+        krit_zeile = krit_zeile.reindex([k for k in reihenfolge if k in krit_zeile.index])
+        st.bar_chart(krit_zeile["hilfsfrist_quote"])
+        st.caption("Fallzahlen je Stufe: " + ", ".join(f"{k}: {int(v)}" for k, v in krit_zeile["n"].items()))
