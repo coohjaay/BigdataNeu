@@ -75,4 +75,5 @@ else:
         krit_zeile = krit_zeile.set_index("criticality")
         krit_zeile = krit_zeile.reindex([k for k in reihenfolge if k in krit_zeile.index])
         st.bar_chart(krit_zeile["hilfsfrist_quote"])
+        st.caption("AMPDS-Dringlichkeitsstufen (steigend): O=Omega (niedrig) < A=Alpha < B=Bravo < C=Charlie < D=Delta < E=Echo (lebensbedrohlich)")
         st.caption("Fallzahlen je Stufe: " + ", ".join(f"{k}: {int(v)}" for k, v in krit_zeile["n"].items()))
