@@ -1,3 +1,10 @@
+{
+    cert_issuer acme {
+        dir https://acme-v02.api.letsencrypt.org/directory
+        profile shortlived
+    }
+}
+
 187.124.190.185 {
     reverse_proxy app:8501
 }
