@@ -2,6 +2,7 @@ import json
 import joblib
 import streamlit as st
 import pandas as pd
+import altair as alt
 import folium
 from streamlit_folium import st_folium
 
@@ -85,8 +86,25 @@ else:
         st.caption("Keine ausreichend verlässliche Aufschlüsselung für diese Kombination verfügbar.")
     else:
         reihenfolge = ["O", "A", "B", "C", "D", "E", "unbekannt"]
+        krit_label = {
+            "O": "O — niedrig",
+            "A": "A",
+            "B": "B",
+            "C": "C",
+            "D": "D",
+            "E": "E — lebensbedrohlich",
+            "unbekannt": "unbekannt",
+        }
         krit_zeile = krit_zeile.set_index("criticality")
         krit_zeile = krit_zeile.reindex([k for k in reihenfolge if k in krit_zeile.index])
-        st.bar_chart(krit_zeile["hilfsfrist_quote"])
-        st.caption("AMPDS-Dringlichkeitsstufen (steigend): O=Omega (niedrig) < A=Alpha < B=Bravo < C=Charlie < D=Delta < E=Echo (lebensbedrohlich)")
+        krit_zeile["hilfsfrist_quote_prozent"] = krit_zeile["hilfsfrist_quote"] * 100
+        krit_zeile.index = [krit_label.get(i, i) for i in krit_zeile.index]
+        krit_zeile.index.name = "Dringlichkeitsstufe"
+        krit_chart_daten = krit_zeile.reset_index()
+
+        chart = alt.Chart(krit_chart_daten).mark_bar().encode(
+            x=alt.X("Dringlichkeitsstufe", sort=None, axis=alt.Axis(labelAngle=0)),
+            y=alt.Y("hilfsfrist_quote_prozent", title="Hilfsfrist-Quote (%)"),
+        )
+        st.altair_chart(chart, use_container_width=True)
         st.caption("Fallzahlen je Stufe: " + ", ".join(f"{k}: {int(v)}" for k, v in krit_zeile["n"].items()))
