@@ -1,24 +1,8 @@
 services:
   app:
-    build: .
-    image: feuerwehr-app:latest
-    container_name: feuerwehr-app
-    expose:
-      - "8501"
-    restart: unless-stopped
-
-  caddy:
-    image: caddy:latest
-    container_name: caddy
-    ports:
-      - "80:80"
-      - "443:443"
-    volumes:
-      - ./Caddyfile:/etc/caddy/Caddyfile
-      - caddy_data:/data
-      - caddy_config:/config
-    restart: unless-stopped
-
-volumes:
-  caddy_data:
-  caddy_config:
+      build: .
+      image: feuerwehr-app:latest
+      container_name: feuerwehr-app
+      ports:
+        - "8501:8501"
+      restart: unless-stopped
