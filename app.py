@@ -12,7 +12,13 @@ modell = joblib.load("app/data/rf_reg_kategorie.pkl")
 feature_spalten = joblib.load("app/data/feature_spalten_kategorie.pkl")
 
 #Auswahlfelder festlegen
-bezirk = st.selectbox("Bezirk", sorted(df_stats["bezirk"].unique()))
+bezirk_liste = sorted(df_stats["bezirk"].unique())
+
+if "bezirk" not in st.session_state:
+    st.session_state["bezirk"] = bezirk_liste[0]
+
+bezirk = st.session_state["bezirk"]
+st.write(f"Ausgewählter Bezirk: **{bezirk}** (auf die Karte klicken, um zu ändern)")
 notfalltyp = st.selectbox("Notfalltyp", sorted(df_stats["Hauptbeschwerde_Text_Original"].unique()))
 einsatztyp = st.radio("Einsatztyp", ["Rettungsdienst", "Rettungsdienst mit Technischer Hilfeleistung"])
 
@@ -34,7 +40,14 @@ folium.GeoJson(
     tooltip=folium.GeoJsonTooltip(fields=["name"])
 ).add_to(m)
 
-st_folium(m, width=700, height=500)
+karte_output = st_folium(m, width=700, height=500)
+
+geklickt = karte_output.get("last_active_drawing")
+if geklickt:
+    geklickter_bezirk = geklickt["properties"]["name"]
+    if geklickter_bezirk != st.session_state["bezirk"]:
+        st.session_state["bezirk"] = geklickter_bezirk
+        st.rerun()
 
 zeile = df_stats[
     (df_stats["bezirk"] == bezirk) &
