@@ -6,21 +6,45 @@ import altair as alt
 import folium
 from streamlit_folium import st_folium
 
-df_stats = pd.read_csv("app/data/bezirk_kategorie_hilfsfrist.csv")
-df_krit = pd.read_csv("app/data/bezirk_kategorie_kritikalitaet.csv")
+df_bezirk_krit = pd.read_csv("app/data/bezirk_kritikalitaet.csv")
 geojson = json.load(open("app/berlin_bezirke.geojson"))
-modell = joblib.load("app/data/rf_reg_kategorie.pkl")
-feature_spalten = joblib.load("app/data/feature_spalten_kategorie.pkl")
+modell = joblib.load("app/data/rf_reg.pkl")
+feature_spalten = joblib.load("app/data/feature_spalten.pkl")
 
 #Auswahlfelder festlegen
-bezirk_liste = sorted(df_stats["bezirk"].unique())
+bezirk_liste = sorted(df_bezirk_krit["bezirk"].unique())
 
 if "bezirk" not in st.session_state:
     st.session_state["bezirk"] = bezirk_liste[0]
 
 bezirk = st.session_state["bezirk"]
 st.write(f"Ausgewählter Bezirk: **{bezirk}** (auf die Karte klicken, um zu ändern)")
-notfalltyp = st.selectbox("Notfalltyp", sorted(df_stats["Hauptbeschwerde_Text_Original"].unique()))
+
+reihenfolge = ["O", "A", "B", "C", "D", "E"]
+krit_label = {
+    "O": "O — niedrig",
+    "A": "A",
+    "B": "B",
+    "C": "C",
+    "D": "D",
+    "E": "E — lebensbedrohlich",
+}
+krit_beispiele = {
+    "O": "geringste Dringlichkeit",
+    "A": "z.B. Krampfanfall, Verbrennungen",
+    "B": "z.B. Sturz/Absturz, Verletzungen",
+    "C": "z.B. Atembeschwerden, Herzbeschwerden",
+    "D": "z.B. Bewusstlosigkeit, Verkehrsunfall",
+    "E": "z.B. Kreislaufstillstand",
+}
+dringlichkeit_optionen = [k for k in reihenfolge if k in df_bezirk_krit["criticality"].unique()]
+dringlichkeit = st.selectbox(
+    "Dringlichkeitsstufe (AMPDS)",
+    dringlichkeit_optionen,
+    format_func=lambda k: krit_label.get(k, k),
+)
+st.caption(krit_beispiele.get(dringlichkeit, ""))
+
 einsatztyp = st.radio("Einsatztyp", ["Rettungsdienst", "Rettungsdienst mit Technischer Hilfeleistung"])
 
 if einsatztyp == "Rettungsdienst":
@@ -50,9 +74,9 @@ if geklickt:
         st.session_state["bezirk"] = geklickter_bezirk
         st.rerun()
 
-zeile = df_stats[
-    (df_stats["bezirk"] == bezirk) &
-    (df_stats["Hauptbeschwerde_Text_Original"] == notfalltyp)
+zeile = df_bezirk_krit[
+    (df_bezirk_krit["bezirk"] == bezirk) &
+    (df_bezirk_krit["criticality"] == dringlichkeit)
 ]
 
 if zeile.empty:
@@ -61,11 +85,10 @@ else:
     median_zeit = zeile["median_response_time"].iloc[0]
     quote = zeile["hilfsfrist_quote"].iloc[0]
     n = zeile["n"].iloc[0]
-    kategorie_raw = zeile["kategorie_raw"].iloc[0]
 
     input_vektor = pd.DataFrame([[0] * len(feature_spalten)], columns=feature_spalten)
     input_vektor[f"district_{bezirk}"] = 1
-    input_vektor[f"kategorie_{kategorie_raw}"] = 1
+    input_vektor[f"criticality_{dringlichkeit}"] = 1
     input_vektor[f"typ_{einsatztyp}"] = 1
 
     vorhersage = modell.predict(input_vektor)[0]
@@ -77,34 +100,25 @@ else:
     col1.caption(f"Basiert auf {n} Einsätzen")
     col2.metric("Modell-Vorhersage", f"{vorhersage/60:.1f} min")
 
-    st.subheader("Verteilung nach Dringlichkeitsstufe (AMPDS)")
-    krit_zeile = df_krit[
-        (df_krit["bezirk"] == bezirk) &
-        (df_krit["kategorie_raw"] == kategorie_raw)
-    ]
-    if krit_zeile.empty:
-        st.caption("Keine ausreichend verlässliche Aufschlüsselung für diese Kombination verfügbar.")
-    else:
-        reihenfolge = ["O", "A", "B", "C", "D", "E", "unbekannt"]
-        krit_label = {
-            "O": "O — niedrig",
-            "A": "A",
-            "B": "B",
-            "C": "C",
-            "D": "D",
-            "E": "E — lebensbedrohlich",
-            "unbekannt": "unbekannt",
-        }
-        krit_zeile = krit_zeile.set_index("criticality")
-        krit_zeile = krit_zeile.reindex([k for k in reihenfolge if k in krit_zeile.index])
-        krit_zeile["hilfsfrist_quote_prozent"] = krit_zeile["hilfsfrist_quote"] * 100
-        krit_zeile.index = [krit_label.get(i, i) for i in krit_zeile.index]
-        krit_zeile.index.name = "Dringlichkeitsstufe"
-        krit_chart_daten = krit_zeile.reset_index()
+    st.subheader("Bezirk im Vergleich zum Berlin-Durchschnitt")
+    berlin_zeile = df_bezirk_krit[df_bezirk_krit["criticality"] == dringlichkeit]
+    berlin_quote = (berlin_zeile["hilfsfrist_quote"] * berlin_zeile["n"]).sum() / berlin_zeile["n"].sum()
 
-        chart = alt.Chart(krit_chart_daten).mark_bar().encode(
-            x=alt.X("Dringlichkeitsstufe", sort=None, axis=alt.Axis(labelAngle=0)),
-            y=alt.Y("hilfsfrist_quote_prozent", title="Hilfsfrist-Quote (%)"),
-        )
-        st.altair_chart(chart, use_container_width=True)
-        st.caption("Fallzahlen je Stufe: " + ", ".join(f"{k}: {int(v)}" for k, v in krit_zeile["n"].items()))
+    vergleich_daten = pd.DataFrame({
+        "Vergleich": [bezirk, "Berlin-Durchschnitt"],
+        "hilfsfrist_quote_prozent": [quote * 100, berlin_quote * 100],
+    })
+
+    chart = alt.Chart(vergleich_daten).mark_bar().encode(
+        x=alt.X("Vergleich", sort=None, axis=alt.Axis(labelAngle=0), title=None),
+        y=alt.Y("hilfsfrist_quote_prozent", title="Hilfsfrist-Quote (%)"),
+        color=alt.Color("Vergleich", legend=None),
+    )
+    st.altair_chart(chart, use_container_width=True)
+    differenz = quote * 100 - berlin_quote * 100
+    richtung = "über" if differenz >= 0 else "unter"
+    st.caption(
+        f"{bezirk} liegt bei Dringlichkeitsstufe {dringlichkeit} {abs(differenz):.1f} Punkte {richtung} "
+        f"dem Berlin-Durchschnitt. Dieser Bezirksunterschied fällt bei dringenden Einsätzen (Stufe E) am größten "
+        f"aus (~40 Punkte) und bei weniger dringenden (Stufe O) am kleinsten (~11 Punkte)."
+    )
