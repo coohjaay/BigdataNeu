@@ -1,0 +1,372 @@
+bezirk,kategorie_raw,n,median_response_time,hilfsfrist_quote,kategorie_code,Hauptbeschwerde_Text_Original
+Charlottenburg-Wilmersdorf,1.0,7402,647.0,0.1781950824101594,01,"Bauchschmerzen, -beschwerden"
+Charlottenburg-Wilmersdorf,2.0,1319,588.0,0.26383623957543595,02,"Allergie (Überreaktion) / Kontakt mit giftigen Tieren (Stiche, Bisse)"
+Charlottenburg-Wilmersdorf,3.0,128,671.5,0.1328125,03,Tierbiss / Tierangriff
+Charlottenburg-Wilmersdorf,4.0,2913,608.0,0.22451081359423275,04,Körperverletzung / Sexualdelikt / Elektroschocker
+Charlottenburg-Wilmersdorf,5.0,2546,670.5,0.1575019638648861,05,Rückenschmerzen (Nicht traumatische Rückenschmerzen oder ältere Verletzung)
+Charlottenburg-Wilmersdorf,6.0,13814,562.0,0.28022296221224846,06,Atembeschwerden
+Charlottenburg-Wilmersdorf,7.0,203,633.0,0.2315270935960591,07,Verbrennungen (Verbrühungen) / Explosion (Detonation)
+Charlottenburg-Wilmersdorf,9.0,1485,461.0,0.5683501683501684,09,"Kreislauf-, Atemstillstand / Tote Person"
+Charlottenburg-Wilmersdorf,10.0,8733,569.0,0.27447612504294056,10,Brustschmerzen / Andere Beschwerden in der Brust (Nicht Traumatisch)
+Charlottenburg-Wilmersdorf,11.0,290,543.5,0.3896551724137931,11,Atemwegsverlegung (Durch Fremdkörper)
+Charlottenburg-Wilmersdorf,12.0,3299,535.0,0.3419217944831767,12,Krampfanfall
+Charlottenburg-Wilmersdorf,13.0,1041,617.0,0.23246878001921228,13,Blutzuckerentgleisungen
+Charlottenburg-Wilmersdorf,15.0,131,605.0,0.2900763358778626,15,Stromunfall / Blitzschlag
+Charlottenburg-Wilmersdorf,16.0,372,658.5,0.20967741935483872,16,Augenprobleme / Verletzungen
+Charlottenburg-Wilmersdorf,17.0,25440,616.0,0.20719339622641508,17,Sturz / Absturz
+Charlottenburg-Wilmersdorf,18.0,1220,637.5,0.18032786885245902,18,Kopfschmerzen
+Charlottenburg-Wilmersdorf,19.0,8654,586.0,0.25098220476080424,19,Herzbeschwerden / Implantierter Defibrillator
+Charlottenburg-Wilmersdorf,20.0,209,656.0,0.19138755980861244,20,"Hitze-, Kälteprobleme"
+Charlottenburg-Wilmersdorf,21.0,6479,623.0,0.20358079950609662,21,Blutung / Wunden
+Charlottenburg-Wilmersdorf,23.0,7214,601.0,0.23149431660659828,23,Überdosis / Vergiftung (Einnahme)
+Charlottenburg-Wilmersdorf,24.0,1149,583.0,0.24456048738033073,24,Schwangerschaft / Geburt / Fehlgeburt
+Charlottenburg-Wilmersdorf,25.0,8205,657.0,0.17209018890920172,25,Psychiatrie / Abnormales Verhalten / Suizidversuch
+Charlottenburg-Wilmersdorf,26.0,13208,666.0,0.17686250757116898,26,Kranke Person (Spezielle Krankheitsbilder)
+Charlottenburg-Wilmersdorf,27.0,73,522.0,0.3561643835616438,27,"Stich-, Schuss-, Pfählungsverletzung"
+Charlottenburg-Wilmersdorf,28.0,4984,600.0,0.23234349919743177,28,Schlaganfall / Transitorische Ischämische Attacke (TIA)
+Charlottenburg-Wilmersdorf,29.0,2438,512.0,0.40730106644790814,29,Verkehrsunfall
+Charlottenburg-Wilmersdorf,30.0,9091,641.0,0.18622813771862282,30,Verletzungen
+Charlottenburg-Wilmersdorf,31.0,16734,562.0,0.2970001195171507,31,Bewusstlosigkeit / Ohnmacht (Beinahe-)
+Charlottenburg-Wilmersdorf,32.0,3527,581.0,0.24780266515452226,32,Unklares Geschehen (Person in Notlage)
+Charlottenburg-Wilmersdorf,33.0,844,619.0,0.1966824644549763,33,Anforderung von Rettungsmittel durch Versorgungseinrichtung / Palliative Medizin / Einweisung
+Charlottenburg-Wilmersdorf,34.0,97,504.0,0.41237113402061853,34,AUM (Automatische Unfallmeldung)
+Friedrichshain-Kreuzberg,1.0,6212,612.0,0.22343850611719254,01,"Bauchschmerzen, -beschwerden"
+Friedrichshain-Kreuzberg,2.0,1283,539.0,0.35074045206547155,02,"Allergie (Überreaktion) / Kontakt mit giftigen Tieren (Stiche, Bisse)"
+Friedrichshain-Kreuzberg,3.0,140,603.5,0.2357142857142857,03,Tierbiss / Tierangriff
+Friedrichshain-Kreuzberg,4.0,4938,567.0,0.28979343863912516,04,Körperverletzung / Sexualdelikt / Elektroschocker
+Friedrichshain-Kreuzberg,5.0,1768,616.5,0.20135746606334842,05,Rückenschmerzen (Nicht traumatische Rückenschmerzen oder ältere Verletzung)
+Friedrichshain-Kreuzberg,6.0,10485,528.0,0.3586075345731998,06,Atembeschwerden
+Friedrichshain-Kreuzberg,7.0,247,585.0,0.26720647773279355,07,Verbrennungen (Verbrühungen) / Explosion (Detonation)
+Friedrichshain-Kreuzberg,9.0,1032,430.0,0.688953488372093,09,"Kreislauf-, Atemstillstand / Tote Person"
+Friedrichshain-Kreuzberg,10.0,6655,535.0,0.3410969196093163,10,Brustschmerzen / Andere Beschwerden in der Brust (Nicht Traumatisch)
+Friedrichshain-Kreuzberg,11.0,230,483.0,0.49130434782608695,11,Atemwegsverlegung (Durch Fremdkörper)
+Friedrichshain-Kreuzberg,12.0,3548,514.0,0.40107102593010147,12,Krampfanfall
+Friedrichshain-Kreuzberg,13.0,826,553.0,0.31234866828087166,13,Blutzuckerentgleisungen
+Friedrichshain-Kreuzberg,15.0,123,570.0,0.2682926829268293,15,Stromunfall / Blitzschlag
+Friedrichshain-Kreuzberg,16.0,438,611.0,0.23972602739726026,16,Augenprobleme / Verletzungen
+Friedrichshain-Kreuzberg,17.0,14821,581.0,0.26502935024627217,17,Sturz / Absturz
+Friedrichshain-Kreuzberg,18.0,1043,590.0,0.26558005752636626,18,Kopfschmerzen
+Friedrichshain-Kreuzberg,19.0,5587,549.0,0.3051727223912654,19,Herzbeschwerden / Implantierter Defibrillator
+Friedrichshain-Kreuzberg,20.0,251,581.0,0.27091633466135456,20,"Hitze-, Kälteprobleme"
+Friedrichshain-Kreuzberg,21.0,4933,579.0,0.2700182444759781,21,Blutung / Wunden
+Friedrichshain-Kreuzberg,23.0,10556,560.0,0.29613489958317546,23,Überdosis / Vergiftung (Einnahme)
+Friedrichshain-Kreuzberg,24.0,1262,566.0,0.2630744849445325,24,Schwangerschaft / Geburt / Fehlgeburt
+Friedrichshain-Kreuzberg,25.0,9343,613.0,0.24521031788504763,25,Psychiatrie / Abnormales Verhalten / Suizidversuch
+Friedrichshain-Kreuzberg,26.0,10056,622.0,0.21927207637231502,26,Kranke Person (Spezielle Krankheitsbilder)
+Friedrichshain-Kreuzberg,27.0,146,479.0,0.5068493150684932,27,"Stich-, Schuss-, Pfählungsverletzung"
+Friedrichshain-Kreuzberg,28.0,2063,566.0,0.2801745031507513,28,Schlaganfall / Transitorische Ischämische Attacke (TIA)
+Friedrichshain-Kreuzberg,29.0,1822,467.0,0.5559824368825467,29,Verkehrsunfall
+Friedrichshain-Kreuzberg,30.0,9713,603.0,0.2432821991145887,30,Verletzungen
+Friedrichshain-Kreuzberg,31.0,13682,526.0,0.36800175412951325,31,Bewusstlosigkeit / Ohnmacht (Beinahe-)
+Friedrichshain-Kreuzberg,32.0,3683,552.0,0.33016562584849307,32,Unklares Geschehen (Person in Notlage)
+Friedrichshain-Kreuzberg,33.0,463,559.0,0.2980561555075594,33,Anforderung von Rettungsmittel durch Versorgungseinrichtung / Palliative Medizin / Einweisung
+Friedrichshain-Kreuzberg,34.0,43,441.0,0.6744186046511628,34,AUM (Automatische Unfallmeldung)
+Lichtenberg,1.0,7857,710.0,0.11289296169021255,01,"Bauchschmerzen, -beschwerden"
+Lichtenberg,2.0,964,644.0,0.16701244813278007,02,"Allergie (Überreaktion) / Kontakt mit giftigen Tieren (Stiche, Bisse)"
+Lichtenberg,3.0,132,776.5,0.11363636363636363,03,Tierbiss / Tierangriff
+Lichtenberg,4.0,2325,680.0,0.13720430107526882,04,Körperverletzung / Sexualdelikt / Elektroschocker
+Lichtenberg,5.0,2426,729.0,0.09975267930750206,05,Rückenschmerzen (Nicht traumatische Rückenschmerzen oder ältere Verletzung)
+Lichtenberg,6.0,13349,618.0,0.16817739156491124,06,Atembeschwerden
+Lichtenberg,7.0,242,664.0,0.16115702479338842,07,Verbrennungen (Verbrühungen) / Explosion (Detonation)
+Lichtenberg,9.0,1227,527.0,0.34311328443357786,09,"Kreislauf-, Atemstillstand / Tote Person"
+Lichtenberg,10.0,8524,631.0,0.16013608634443924,10,Brustschmerzen / Andere Beschwerden in der Brust (Nicht Traumatisch)
+Lichtenberg,11.0,281,581.0,0.23843416370106763,11,Atemwegsverlegung (Durch Fremdkörper)
+Lichtenberg,12.0,2881,597.0,0.21520305449496702,12,Krampfanfall
+Lichtenberg,13.0,1098,644.0,0.16302367941712204,13,Blutzuckerentgleisungen
+Lichtenberg,15.0,142,658.5,0.1619718309859155,15,Stromunfall / Blitzschlag
+Lichtenberg,16.0,308,725.0,0.09090909090909091,16,Augenprobleme / Verletzungen
+Lichtenberg,17.0,19822,669.0,0.1374230652810009,17,Sturz / Absturz
+Lichtenberg,18.0,1263,703.0,0.11084718923198733,18,Kopfschmerzen
+Lichtenberg,19.0,7739,639.0,0.1475642847913167,19,Herzbeschwerden / Implantierter Defibrillator
+Lichtenberg,20.0,114,703.0,0.11403508771929824,20,"Hitze-, Kälteprobleme"
+Lichtenberg,21.0,6299,676.0,0.12859183997459914,21,Blutung / Wunden
+Lichtenberg,23.0,5047,682.0,0.14028135526055083,23,Überdosis / Vergiftung (Einnahme)
+Lichtenberg,24.0,2247,659.0,0.14508233199821985,24,Schwangerschaft / Geburt / Fehlgeburt
+Lichtenberg,25.0,7497,721.0,0.11471255168734161,25,Psychiatrie / Abnormales Verhalten / Suizidversuch
+Lichtenberg,26.0,10908,732.0,0.11523652365236524,26,Kranke Person (Spezielle Krankheitsbilder)
+Lichtenberg,27.0,76,598.5,0.21052631578947367,27,"Stich-, Schuss-, Pfählungsverletzung"
+Lichtenberg,28.0,3910,645.0,0.15907928388746803,28,Schlaganfall / Transitorische Ischämische Attacke (TIA)
+Lichtenberg,29.0,1147,559.0,0.2920662598081953,29,Verkehrsunfall
+Lichtenberg,30.0,7012,695.0,0.12464346833998859,30,Verletzungen
+Lichtenberg,31.0,12676,619.0,0.19067529189018617,31,Bewusstlosigkeit / Ohnmacht (Beinahe-)
+Lichtenberg,32.0,2379,643.0,0.15174443043295502,32,Unklares Geschehen (Person in Notlage)
+Lichtenberg,33.0,483,638.0,0.19254658385093168,33,Anforderung von Rettungsmittel durch Versorgungseinrichtung / Palliative Medizin / Einweisung
+Lichtenberg,34.0,30,536.0,0.3333333333333333,34,AUM (Automatische Unfallmeldung)
+Marzahn-Hellersdorf,1.0,7427,719.0,0.08899959606839908,01,"Bauchschmerzen, -beschwerden"
+Marzahn-Hellersdorf,2.0,932,650.0,0.13626609442060086,02,"Allergie (Überreaktion) / Kontakt mit giftigen Tieren (Stiche, Bisse)"
+Marzahn-Hellersdorf,3.0,107,660.0,0.09345794392523364,03,Tierbiss / Tierangriff
+Marzahn-Hellersdorf,4.0,2186,673.0,0.10750228728270814,04,Körperverletzung / Sexualdelikt / Elektroschocker
+Marzahn-Hellersdorf,5.0,2351,734.0,0.09102509570395577,05,Rückenschmerzen (Nicht traumatische Rückenschmerzen oder ältere Verletzung)
+Marzahn-Hellersdorf,6.0,13560,628.0,0.14262536873156342,06,Atembeschwerden
+Marzahn-Hellersdorf,7.0,220,659.5,0.1409090909090909,07,Verbrennungen (Verbrühungen) / Explosion (Detonation)
+Marzahn-Hellersdorf,9.0,1342,536.0,0.323397913561848,09,"Kreislauf-, Atemstillstand / Tote Person"
+Marzahn-Hellersdorf,10.0,8479,639.0,0.135511263120651,10,Brustschmerzen / Andere Beschwerden in der Brust (Nicht Traumatisch)
+Marzahn-Hellersdorf,11.0,240,602.5,0.22916666666666666,11,Atemwegsverlegung (Durch Fremdkörper)
+Marzahn-Hellersdorf,12.0,2627,616.0,0.16368481157213552,12,Krampfanfall
+Marzahn-Hellersdorf,13.0,1195,662.0,0.11548117154811716,13,Blutzuckerentgleisungen
+Marzahn-Hellersdorf,15.0,86,638.0,0.12790697674418605,15,Stromunfall / Blitzschlag
+Marzahn-Hellersdorf,16.0,259,697.0,0.08494208494208494,16,Augenprobleme / Verletzungen
+Marzahn-Hellersdorf,17.0,16811,673.0,0.12099220748319553,17,Sturz / Absturz
+Marzahn-Hellersdorf,18.0,1106,712.5,0.1057866184448463,18,Kopfschmerzen
+Marzahn-Hellersdorf,19.0,7717,652.0,0.13800699753790333,19,Herzbeschwerden / Implantierter Defibrillator
+Marzahn-Hellersdorf,20.0,97,682.0,0.09278350515463918,20,"Hitze-, Kälteprobleme"
+Marzahn-Hellersdorf,21.0,5864,683.0,0.10607094133697136,21,Blutung / Wunden
+Marzahn-Hellersdorf,23.0,4238,678.0,0.11349693251533742,23,Überdosis / Vergiftung (Einnahme)
+Marzahn-Hellersdorf,24.0,2376,667.5,0.10858585858585859,24,Schwangerschaft / Geburt / Fehlgeburt
+Marzahn-Hellersdorf,25.0,6351,697.0,0.10376318689970083,25,Psychiatrie / Abnormales Verhalten / Suizidversuch
+Marzahn-Hellersdorf,26.0,9482,719.0,0.0972368698586796,26,Kranke Person (Spezielle Krankheitsbilder)
+Marzahn-Hellersdorf,27.0,52,564.5,0.21153846153846154,27,"Stich-, Schuss-, Pfählungsverletzung"
+Marzahn-Hellersdorf,28.0,4222,667.0,0.1250592136428233,28,Schlaganfall / Transitorische Ischämische Attacke (TIA)
+Marzahn-Hellersdorf,29.0,1122,564.0,0.25668449197860965,29,Verkehrsunfall
+Marzahn-Hellersdorf,30.0,5920,682.0,0.1152027027027027,30,Verletzungen
+Marzahn-Hellersdorf,31.0,11475,633.0,0.1599128540305011,31,Bewusstlosigkeit / Ohnmacht (Beinahe-)
+Marzahn-Hellersdorf,32.0,1884,648.5,0.13853503184713375,32,Unklares Geschehen (Person in Notlage)
+Marzahn-Hellersdorf,33.0,398,663.5,0.1407035175879397,33,Anforderung von Rettungsmittel durch Versorgungseinrichtung / Palliative Medizin / Einweisung
+Marzahn-Hellersdorf,34.0,34,592.0,0.20588235294117646,34,AUM (Automatische Unfallmeldung)
+Mitte,1.0,10782,637.0,0.19782971619365608,01,"Bauchschmerzen, -beschwerden"
+Mitte,2.0,1936,560.5,0.29132231404958675,02,"Allergie (Überreaktion) / Kontakt mit giftigen Tieren (Stiche, Bisse)"
+Mitte,3.0,160,620.5,0.225,03,Tierbiss / Tierangriff
+Mitte,4.0,6321,604.0,0.2368296155671571,04,Körperverletzung / Sexualdelikt / Elektroschocker
+Mitte,5.0,3272,652.5,0.1873471882640587,05,Rückenschmerzen (Nicht traumatische Rückenschmerzen oder ältere Verletzung)
+Mitte,6.0,17788,553.0,0.2948054868450641,06,Atembeschwerden
+Mitte,7.0,343,579.0,0.24489795918367346,07,Verbrennungen (Verbrühungen) / Explosion (Detonation)
+Mitte,9.0,1642,453.5,0.5968331303288672,09,"Kreislauf-, Atemstillstand / Tote Person"
+Mitte,10.0,11530,556.0,0.2960971379011275,10,Brustschmerzen / Andere Beschwerden in der Brust (Nicht Traumatisch)
+Mitte,11.0,355,511.0,0.37746478873239436,11,Atemwegsverlegung (Durch Fremdkörper)
+Mitte,12.0,5374,533.0,0.3552288797915891,12,Krampfanfall
+Mitte,13.0,1502,601.5,0.24567243675099867,13,Blutzuckerentgleisungen
+Mitte,15.0,203,568.0,0.3054187192118227,15,Stromunfall / Blitzschlag
+Mitte,16.0,673,629.0,0.2065378900445765,16,Augenprobleme / Verletzungen
+Mitte,17.0,26091,608.0,0.22873787896209422,17,Sturz / Absturz
+Mitte,18.0,1903,621.0,0.22122963741460852,18,Kopfschmerzen
+Mitte,19.0,9756,571.0,0.26455514555145554,19,Herzbeschwerden / Implantierter Defibrillator
+Mitte,20.0,370,602.0,0.22162162162162163,20,"Hitze-, Kälteprobleme"
+Mitte,21.0,8258,604.0,0.22632598692177283,21,Blutung / Wunden
+Mitte,23.0,13414,598.0,0.24854629491575966,23,Überdosis / Vergiftung (Einnahme)
+Mitte,24.0,2329,578.0,0.25032202662086733,24,Schwangerschaft / Geburt / Fehlgeburt
+Mitte,25.0,13491,641.0,0.1955377659180194,25,Psychiatrie / Abnormales Verhalten / Suizidversuch
+Mitte,26.0,17122,656.0,0.18590117976871862,26,Kranke Person (Spezielle Krankheitsbilder)
+Mitte,27.0,207,499.0,0.4492753623188406,27,"Stich-, Schuss-, Pfählungsverletzung"
+Mitte,28.0,3888,579.0,0.26260288065843623,28,Schlaganfall / Transitorische Ischämische Attacke (TIA)
+Mitte,29.0,3197,489.0,0.47106662496090085,29,Verkehrsunfall
+Mitte,30.0,14824,632.0,0.20756880733944955,30,Verletzungen
+Mitte,31.0,22165,548.0,0.3209113467177983,31,Bewusstlosigkeit / Ohnmacht (Beinahe-)
+Mitte,32.0,5814,580.0,0.26608187134502925,32,Unklares Geschehen (Person in Notlage)
+Mitte,33.0,731,596.0,0.24897400820793433,33,Anforderung von Rettungsmittel durch Versorgungseinrichtung / Palliative Medizin / Einweisung
+Mitte,34.0,81,527.0,0.32098765432098764,34,AUM (Automatische Unfallmeldung)
+Neukölln,1.0,8411,690.0,0.12887884912614433,01,"Bauchschmerzen, -beschwerden"
+Neukölln,2.0,1242,601.0,0.21739130434782608,02,"Allergie (Überreaktion) / Kontakt mit giftigen Tieren (Stiche, Bisse)"
+Neukölln,3.0,135,668.0,0.14814814814814814,03,Tierbiss / Tierangriff
+Neukölln,4.0,3497,625.0,0.20417500714898484,04,Körperverletzung / Sexualdelikt / Elektroschocker
+Neukölln,5.0,2763,705.0,0.11834961997828447,05,Rückenschmerzen (Nicht traumatische Rückenschmerzen oder ältere Verletzung)
+Neukölln,6.0,16763,589.0,0.22215593867446162,06,Atembeschwerden
+Neukölln,7.0,315,644.0,0.17142857142857143,07,Verbrennungen (Verbrühungen) / Explosion (Detonation)
+Neukölln,9.0,1421,493.0,0.45672061928219565,09,"Kreislauf-, Atemstillstand / Tote Person"
+Neukölln,10.0,9589,596.0,0.20794660548545207,10,Brustschmerzen / Andere Beschwerden in der Brust (Nicht Traumatisch)
+Neukölln,11.0,275,545.0,0.28363636363636363,11,Atemwegsverlegung (Durch Fremdkörper)
+Neukölln,12.0,2972,564.0,0.27893674293405113,12,Krampfanfall
+Neukölln,13.0,1179,641.0,0.18914334181509754,13,Blutzuckerentgleisungen
+Neukölln,15.0,142,649.0,0.14788732394366197,15,Stromunfall / Blitzschlag
+Neukölln,16.0,431,661.0,0.14385150812064965,16,Augenprobleme / Verletzungen
+Neukölln,17.0,19529,647.0,0.16447334732961238,17,Sturz / Absturz
+Neukölln,18.0,1465,680.0,0.13378839590443686,18,Kopfschmerzen
+Neukölln,19.0,7945,614.0,0.1894273127753304,19,Herzbeschwerden / Implantierter Defibrillator
+Neukölln,20.0,165,639.0,0.1696969696969697,20,"Hitze-, Kälteprobleme"
+Neukölln,21.0,6621,656.0,0.15254493278960882,21,Blutung / Wunden
+Neukölln,23.0,6185,618.0,0.20921584478577204,23,Überdosis / Vergiftung (Einnahme)
+Neukölln,24.0,1747,639.0,0.17572982255294792,24,Schwangerschaft / Geburt / Fehlgeburt
+Neukölln,25.0,8046,673.0,0.1558538404175988,25,Psychiatrie / Abnormales Verhalten / Suizidversuch
+Neukölln,26.0,12040,703.5,0.13538205980066445,26,Kranke Person (Spezielle Krankheitsbilder)
+Neukölln,27.0,130,521.0,0.4307692307692308,27,"Stich-, Schuss-, Pfählungsverletzung"
+Neukölln,28.0,4120,637.0,0.1650485436893204,28,Schlaganfall / Transitorische Ischämische Attacke (TIA)
+Neukölln,29.0,1822,521.0,0.38254665203073546,29,Verkehrsunfall
+Neukölln,30.0,7986,654.0,0.16103180565990483,30,Verletzungen
+Neukölln,31.0,14142,593.0,0.24140857021637674,31,Bewusstlosigkeit / Ohnmacht (Beinahe-)
+Neukölln,32.0,2933,604.0,0.23354926696215478,32,Unklares Geschehen (Person in Notlage)
+Neukölln,33.0,644,612.0,0.2484472049689441,33,Anforderung von Rettungsmittel durch Versorgungseinrichtung / Palliative Medizin / Einweisung
+Neukölln,34.0,45,571.0,0.17777777777777778,34,AUM (Automatische Unfallmeldung)
+Pankow,1.0,7654,682.0,0.11614841912725372,01,"Bauchschmerzen, -beschwerden"
+Pankow,2.0,1384,603.0,0.1936416184971098,02,"Allergie (Überreaktion) / Kontakt mit giftigen Tieren (Stiche, Bisse)"
+Pankow,3.0,113,663.0,0.1504424778761062,03,Tierbiss / Tierangriff
+Pankow,4.0,2672,637.0,0.17552395209580837,04,Körperverletzung / Sexualdelikt / Elektroschocker
+Pankow,5.0,2452,704.0,0.10889070146818923,05,Rückenschmerzen (Nicht traumatische Rückenschmerzen oder ältere Verletzung)
+Pankow,6.0,13117,603.0,0.17656476328428758,06,Atembeschwerden
+Pankow,7.0,302,651.5,0.18543046357615894,07,Verbrennungen (Verbrühungen) / Explosion (Detonation)
+Pankow,9.0,1361,503.0,0.4129316678912564,09,"Kreislauf-, Atemstillstand / Tote Person"
+Pankow,10.0,8428,610.0,0.18094447081158044,10,Brustschmerzen / Andere Beschwerden in der Brust (Nicht Traumatisch)
+Pankow,11.0,282,554.0,0.3049645390070922,11,Atemwegsverlegung (Durch Fremdkörper)
+Pankow,12.0,3178,580.0,0.2262429200755192,12,Krampfanfall
+Pankow,13.0,1062,632.0,0.17890772128060264,13,Blutzuckerentgleisungen
+Pankow,15.0,125,654.0,0.16,15,Stromunfall / Blitzschlag
+Pankow,16.0,369,714.0,0.10298102981029811,16,Augenprobleme / Verletzungen
+Pankow,17.0,21863,654.0,0.14069432374331062,17,Sturz / Absturz
+Pankow,18.0,1196,657.5,0.1254180602006689,18,Kopfschmerzen
+Pankow,19.0,8266,624.0,0.16271473505927897,19,Herzbeschwerden / Implantierter Defibrillator
+Pankow,20.0,182,651.5,0.15934065934065933,20,"Hitze-, Kälteprobleme"
+Pankow,21.0,6238,665.0,0.1338570054504649,21,Blutung / Wunden
+Pankow,23.0,6929,641.0,0.17304084283446386,23,Überdosis / Vergiftung (Einnahme)
+Pankow,24.0,1715,624.0,0.16851311953352768,24,Schwangerschaft / Geburt / Fehlgeburt
+Pankow,25.0,8608,697.0,0.12302509293680297,25,Psychiatrie / Abnormales Verhalten / Suizidversuch
+Pankow,26.0,11504,703.0,0.11934979137691237,26,Kranke Person (Spezielle Krankheitsbilder)
+Pankow,27.0,80,548.0,0.25,27,"Stich-, Schuss-, Pfählungsverletzung"
+Pankow,28.0,3951,642.0,0.14578587699316628,28,Schlaganfall / Transitorische Ischämische Attacke (TIA)
+Pankow,29.0,1803,531.0,0.338879645036051,29,Verkehrsunfall
+Pankow,30.0,8652,671.0,0.1393897364771151,30,Verletzungen
+Pankow,31.0,14163,608.0,0.19974581656428722,31,Bewusstlosigkeit / Ohnmacht (Beinahe-)
+Pankow,32.0,2241,629.0,0.1749219098616689,32,Unklares Geschehen (Person in Notlage)
+Pankow,33.0,650,619.0,0.19384615384615383,33,Anforderung von Rettungsmittel durch Versorgungseinrichtung / Palliative Medizin / Einweisung
+Reinickendorf,1.0,6919,709.0,0.1146119381413499,01,"Bauchschmerzen, -beschwerden"
+Reinickendorf,2.0,934,645.5,0.1745182012847966,02,"Allergie (Überreaktion) / Kontakt mit giftigen Tieren (Stiche, Bisse)"
+Reinickendorf,3.0,94,698.5,0.11702127659574468,03,Tierbiss / Tierangriff
+Reinickendorf,4.0,1956,666.5,0.1467280163599182,04,Körperverletzung / Sexualdelikt / Elektroschocker
+Reinickendorf,5.0,2325,732.0,0.09935483870967741,05,Rückenschmerzen (Nicht traumatische Rückenschmerzen oder ältere Verletzung)
+Reinickendorf,6.0,13762,622.0,0.18427554134573462,06,Atembeschwerden
+Reinickendorf,7.0,234,654.5,0.1581196581196581,07,Verbrennungen (Verbrühungen) / Explosion (Detonation)
+Reinickendorf,9.0,1402,515.0,0.39015691868758917,09,"Kreislauf-, Atemstillstand / Tote Person"
+Reinickendorf,10.0,7865,630.0,0.16783216783216784,10,Brustschmerzen / Andere Beschwerden in der Brust (Nicht Traumatisch)
+Reinickendorf,11.0,237,556.0,0.27848101265822783,11,Atemwegsverlegung (Durch Fremdkörper)
+Reinickendorf,12.0,2445,595.0,0.2359918200408998,12,Krampfanfall
+Reinickendorf,13.0,1055,667.0,0.16587677725118483,13,Blutzuckerentgleisungen
+Reinickendorf,15.0,117,586.0,0.19658119658119658,15,Stromunfall / Blitzschlag
+Reinickendorf,16.0,314,720.0,0.10191082802547771,16,Augenprobleme / Verletzungen
+Reinickendorf,17.0,19183,663.0,0.1635302090392535,17,Sturz / Absturz
+Reinickendorf,18.0,1072,693.0,0.13805970149253732,18,Kopfschmerzen
+Reinickendorf,19.0,7154,645.0,0.17039418507128878,19,Herzbeschwerden / Implantierter Defibrillator
+Reinickendorf,20.0,104,700.0,0.10576923076923077,20,"Hitze-, Kälteprobleme"
+Reinickendorf,21.0,5752,687.0,0.14273296244784422,21,Blutung / Wunden
+Reinickendorf,23.0,3969,660.0,0.15495086923658352,23,Überdosis / Vergiftung (Einnahme)
+Reinickendorf,24.0,1890,676.0,0.12328042328042328,24,Schwangerschaft / Geburt / Fehlgeburt
+Reinickendorf,25.0,6522,710.0,0.12986813860778904,25,Psychiatrie / Abnormales Verhalten / Suizidversuch
+Reinickendorf,26.0,10237,730.0,0.12142229168701768,26,Kranke Person (Spezielle Krankheitsbilder)
+Reinickendorf,27.0,58,565.5,0.29310344827586204,27,"Stich-, Schuss-, Pfählungsverletzung"
+Reinickendorf,28.0,4389,654.0,0.16085668717247664,28,Schlaganfall / Transitorische Ischämische Attacke (TIA)
+Reinickendorf,29.0,1444,523.0,0.35941828254847646,29,Verkehrsunfall
+Reinickendorf,30.0,6289,687.0,0.14088090316425506,30,Verletzungen
+Reinickendorf,31.0,11914,615.0,0.20966929662581837,31,Bewusstlosigkeit / Ohnmacht (Beinahe-)
+Reinickendorf,32.0,1976,637.0,0.17611336032388664,32,Unklares Geschehen (Person in Notlage)
+Reinickendorf,33.0,743,644.0,0.21668909825033647,33,Anforderung von Rettungsmittel durch Versorgungseinrichtung / Palliative Medizin / Einweisung
+Reinickendorf,34.0,46,566.5,0.2391304347826087,34,AUM (Automatische Unfallmeldung)
+Spandau,1.0,6034,679.0,0.14832615180643022,01,"Bauchschmerzen, -beschwerden"
+Spandau,2.0,869,607.0,0.20598388952819333,02,"Allergie (Überreaktion) / Kontakt mit giftigen Tieren (Stiche, Bisse)"
+Spandau,3.0,92,645.0,0.21739130434782608,03,Tierbiss / Tierangriff
+Spandau,4.0,2010,604.0,0.19701492537313434,04,Körperverletzung / Sexualdelikt / Elektroschocker
+Spandau,5.0,2103,686.0,0.13742272943414172,05,Rückenschmerzen (Nicht traumatische Rückenschmerzen oder ältere Verletzung)
+Spandau,6.0,11980,599.0,0.21085141903171953,06,Atembeschwerden
+Spandau,7.0,171,629.0,0.2222222222222222,07,Verbrennungen (Verbrühungen) / Explosion (Detonation)
+Spandau,9.0,1093,507.0,0.4089661482159195,09,"Kreislauf-, Atemstillstand / Tote Person"
+Spandau,10.0,6836,605.0,0.19982445874780574,10,Brustschmerzen / Andere Beschwerden in der Brust (Nicht Traumatisch)
+Spandau,11.0,238,556.5,0.2857142857142857,11,Atemwegsverlegung (Durch Fremdkörper)
+Spandau,12.0,2460,573.0,0.2573170731707317,12,Krampfanfall
+Spandau,13.0,859,615.0,0.19557625145518046,13,Blutzuckerentgleisungen
+Spandau,15.0,87,628.0,0.2413793103448276,15,Stromunfall / Blitzschlag
+Spandau,16.0,315,667.0,0.12063492063492064,16,Augenprobleme / Verletzungen
+Spandau,17.0,17244,627.0,0.1849338900487126,17,Sturz / Absturz
+Spandau,18.0,963,657.0,0.14018691588785046,18,Kopfschmerzen
+Spandau,19.0,6094,621.0,0.18887430259271415,19,Herzbeschwerden / Implantierter Defibrillator
+Spandau,20.0,121,621.0,0.256198347107438,20,"Hitze-, Kälteprobleme"
+Spandau,21.0,5166,650.0,0.15369725125822686,21,Blutung / Wunden
+Spandau,23.0,3855,608.0,0.21011673151750973,23,Überdosis / Vergiftung (Einnahme)
+Spandau,24.0,1443,617.0,0.19126819126819128,24,Schwangerschaft / Geburt / Fehlgeburt
+Spandau,25.0,5884,667.0,0.15856560163154318,25,Psychiatrie / Abnormales Verhalten / Suizidversuch
+Spandau,26.0,9175,684.0,0.14103542234332425,26,Kranke Person (Spezielle Krankheitsbilder)
+Spandau,27.0,71,539.0,0.28169014084507044,27,"Stich-, Schuss-, Pfählungsverletzung"
+Spandau,28.0,3884,625.0,0.18795056642636457,28,Schlaganfall / Transitorische Ischämische Attacke (TIA)
+Spandau,29.0,1449,525.0,0.34644582470669427,29,Verkehrsunfall
+Spandau,30.0,5922,638.0,0.18541033434650456,30,Verletzungen
+Spandau,31.0,10809,588.0,0.23249144231658803,31,Bewusstlosigkeit / Ohnmacht (Beinahe-)
+Spandau,32.0,1851,595.0,0.2290653700702323,32,Unklares Geschehen (Person in Notlage)
+Spandau,33.0,533,591.0,0.2589118198874296,33,Anforderung von Rettungsmittel durch Versorgungseinrichtung / Palliative Medizin / Einweisung
+Spandau,34.0,39,536.0,0.28205128205128205,34,AUM (Automatische Unfallmeldung)
+Steglitz-Zehlendorf,1.0,5419,689.0,0.11072153533862336,01,"Bauchschmerzen, -beschwerden"
+Steglitz-Zehlendorf,2.0,884,626.0,0.15271493212669685,02,"Allergie (Überreaktion) / Kontakt mit giftigen Tieren (Stiche, Bisse)"
+Steglitz-Zehlendorf,3.0,81,649.0,0.14814814814814814,03,Tierbiss / Tierangriff
+Steglitz-Zehlendorf,4.0,1113,626.0,0.18688230008984727,04,Körperverletzung / Sexualdelikt / Elektroschocker
+Steglitz-Zehlendorf,5.0,1821,708.0,0.11257550796265788,05,Rückenschmerzen (Nicht traumatische Rückenschmerzen oder ältere Verletzung)
+Steglitz-Zehlendorf,6.0,10831,614.0,0.17256024374480658,06,Atembeschwerden
+Steglitz-Zehlendorf,7.0,163,667.0,0.15337423312883436,07,Verbrennungen (Verbrühungen) / Explosion (Detonation)
+Steglitz-Zehlendorf,9.0,1187,512.0,0.36731255265374896,09,"Kreislauf-, Atemstillstand / Tote Person"
+Steglitz-Zehlendorf,10.0,6398,621.0,0.17099093466708346,10,Brustschmerzen / Andere Beschwerden in der Brust (Nicht Traumatisch)
+Steglitz-Zehlendorf,11.0,260,578.0,0.28846153846153844,11,Atemwegsverlegung (Durch Fremdkörper)
+Steglitz-Zehlendorf,12.0,2382,586.5,0.22208228379513015,12,Krampfanfall
+Steglitz-Zehlendorf,13.0,855,637.0,0.16842105263157894,13,Blutzuckerentgleisungen
+Steglitz-Zehlendorf,15.0,104,623.0,0.18269230769230768,15,Stromunfall / Blitzschlag
+Steglitz-Zehlendorf,16.0,274,697.5,0.11313868613138686,16,Augenprobleme / Verletzungen
+Steglitz-Zehlendorf,17.0,22722,646.0,0.1512190828272159,17,Sturz / Absturz
+Steglitz-Zehlendorf,18.0,897,687.0,0.13043478260869565,18,Kopfschmerzen
+Steglitz-Zehlendorf,19.0,6355,628.0,0.16837136113296616,19,Herzbeschwerden / Implantierter Defibrillator
+Steglitz-Zehlendorf,20.0,122,622.5,0.19672131147540983,20,"Hitze-, Kälteprobleme"
+Steglitz-Zehlendorf,21.0,5355,657.0,0.1350140056022409,21,Blutung / Wunden
+Steglitz-Zehlendorf,23.0,3414,635.0,0.17369654364381956,23,Überdosis / Vergiftung (Einnahme)
+Steglitz-Zehlendorf,24.0,854,645.0,0.16276346604215455,24,Schwangerschaft / Geburt / Fehlgeburt
+Steglitz-Zehlendorf,25.0,5520,671.0,0.1427536231884058,25,Psychiatrie / Abnormales Verhalten / Suizidversuch
+Steglitz-Zehlendorf,26.0,9867,701.0,0.12354312354312354,26,Kranke Person (Spezielle Krankheitsbilder)
+Steglitz-Zehlendorf,27.0,33,613.0,0.15151515151515152,27,"Stich-, Schuss-, Pfählungsverletzung"
+Steglitz-Zehlendorf,28.0,4805,650.0,0.15088449531737774,28,Schlaganfall / Transitorische Ischämische Attacke (TIA)
+Steglitz-Zehlendorf,29.0,1340,533.0,0.33507462686567163,29,Verkehrsunfall
+Steglitz-Zehlendorf,30.0,5668,651.0,0.15384615384615385,30,Verletzungen
+Steglitz-Zehlendorf,31.0,12078,610.0,0.19887398575923165,31,Bewusstlosigkeit / Ohnmacht (Beinahe-)
+Steglitz-Zehlendorf,32.0,1706,608.0,0.19929660023446658,32,Unklares Geschehen (Person in Notlage)
+Steglitz-Zehlendorf,33.0,625,656.0,0.1808,33,Anforderung von Rettungsmittel durch Versorgungseinrichtung / Palliative Medizin / Einweisung
+Steglitz-Zehlendorf,34.0,44,569.0,0.25,34,AUM (Automatische Unfallmeldung)
+Tempelhof-Schöneberg,1.0,7622,661.5,0.15324061926003674,01,"Bauchschmerzen, -beschwerden"
+Tempelhof-Schöneberg,2.0,1215,586.0,0.25761316872427986,02,"Allergie (Überreaktion) / Kontakt mit giftigen Tieren (Stiche, Bisse)"
+Tempelhof-Schöneberg,3.0,121,682.0,0.14049586776859505,03,Tierbiss / Tierangriff
+Tempelhof-Schöneberg,4.0,2555,624.0,0.1949119373776908,04,Körperverletzung / Sexualdelikt / Elektroschocker
+Tempelhof-Schöneberg,5.0,2624,676.0,0.1444359756097561,05,Rückenschmerzen (Nicht traumatische Rückenschmerzen oder ältere Verletzung)
+Tempelhof-Schöneberg,6.0,14270,566.0,0.2651016117729502,06,Atembeschwerden
+Tempelhof-Schöneberg,7.0,240,648.0,0.18333333333333332,07,Verbrennungen (Verbrühungen) / Explosion (Detonation)
+Tempelhof-Schöneberg,9.0,1432,477.5,0.5111731843575419,09,"Kreislauf-, Atemstillstand / Tote Person"
+Tempelhof-Schöneberg,10.0,8793,570.0,0.2484931195268964,10,Brustschmerzen / Andere Beschwerden in der Brust (Nicht Traumatisch)
+Tempelhof-Schöneberg,11.0,286,538.0,0.3076923076923077,11,Atemwegsverlegung (Durch Fremdkörper)
+Tempelhof-Schöneberg,12.0,2933,544.0,0.321854756222298,12,Krampfanfall
+Tempelhof-Schöneberg,13.0,1107,617.0,0.2086720867208672,13,Blutzuckerentgleisungen
+Tempelhof-Schöneberg,15.0,149,634.0,0.24161073825503357,15,Stromunfall / Blitzschlag
+Tempelhof-Schöneberg,16.0,362,640.5,0.1574585635359116,16,Augenprobleme / Verletzungen
+Tempelhof-Schöneberg,17.0,22519,621.0,0.19436919934277722,17,Sturz / Absturz
+Tempelhof-Schöneberg,18.0,1185,646.0,0.15443037974683543,18,Kopfschmerzen
+Tempelhof-Schöneberg,19.0,8366,588.0,0.2315323930193641,19,Herzbeschwerden / Implantierter Defibrillator
+Tempelhof-Schöneberg,20.0,135,604.0,0.2074074074074074,20,"Hitze-, Kälteprobleme"
+Tempelhof-Schöneberg,21.0,6628,629.0,0.18105009052504525,21,Blutung / Wunden
+Tempelhof-Schöneberg,23.0,5884,615.0,0.21430999320190347,23,Überdosis / Vergiftung (Einnahme)
+Tempelhof-Schöneberg,24.0,1517,605.0,0.22017139090309823,24,Schwangerschaft / Geburt / Fehlgeburt
+Tempelhof-Schöneberg,25.0,8219,669.0,0.1670519527923105,25,Psychiatrie / Abnormales Verhalten / Suizidversuch
+Tempelhof-Schöneberg,26.0,11710,682.0,0.1498719043552519,26,Kranke Person (Spezielle Krankheitsbilder)
+Tempelhof-Schöneberg,27.0,78,522.0,0.358974358974359,27,"Stich-, Schuss-, Pfählungsverletzung"
+Tempelhof-Schöneberg,28.0,4884,598.5,0.21703521703521703,28,Schlaganfall / Transitorische Ischämische Attacke (TIA)
+Tempelhof-Schöneberg,29.0,1996,508.0,0.40230460921843686,29,Verkehrsunfall
+Tempelhof-Schöneberg,30.0,8215,643.0,0.17845404747413268,30,Verletzungen
+Tempelhof-Schöneberg,31.0,14488,568.0,0.2768498067366096,31,Bewusstlosigkeit / Ohnmacht (Beinahe-)
+Tempelhof-Schöneberg,32.0,2647,590.0,0.23611635814129203,32,Unklares Geschehen (Person in Notlage)
+Tempelhof-Schöneberg,33.0,727,601.0,0.25034387895460797,33,Anforderung von Rettungsmittel durch Versorgungseinrichtung / Palliative Medizin / Einweisung
+Tempelhof-Schöneberg,34.0,72,520.5,0.3333333333333333,34,AUM (Automatische Unfallmeldung)
+Treptow-Köpenick,1.0,7019,714.0,0.08434249893147172,01,"Bauchschmerzen, -beschwerden"
+Treptow-Köpenick,2.0,949,652.0,0.11591148577449947,02,"Allergie (Überreaktion) / Kontakt mit giftigen Tieren (Stiche, Bisse)"
+Treptow-Köpenick,3.0,146,697.0,0.1506849315068493,03,Tierbiss / Tierangriff
+Treptow-Köpenick,4.0,1822,670.0,0.11690450054884742,04,Körperverletzung / Sexualdelikt / Elektroschocker
+Treptow-Köpenick,5.0,2261,735.0,0.08314904909332153,05,Rückenschmerzen (Nicht traumatische Rückenschmerzen oder ältere Verletzung)
+Treptow-Köpenick,6.0,11356,637.0,0.1336738288129623,06,Atembeschwerden
+Treptow-Köpenick,7.0,202,671.0,0.11386138613861387,07,Verbrennungen (Verbrühungen) / Explosion (Detonation)
+Treptow-Köpenick,9.0,1252,547.0,0.28115015974440893,09,"Kreislauf-, Atemstillstand / Tote Person"
+Treptow-Köpenick,10.0,7620,650.0,0.12296587926509187,10,Brustschmerzen / Andere Beschwerden in der Brust (Nicht Traumatisch)
+Treptow-Köpenick,11.0,215,601.0,0.21395348837209302,11,Atemwegsverlegung (Durch Fremdkörper)
+Treptow-Köpenick,12.0,2516,608.0,0.18600953895071543,12,Krampfanfall
+Treptow-Köpenick,13.0,1079,671.0,0.14550509731232622,13,Blutzuckerentgleisungen
+Treptow-Köpenick,15.0,115,676.0,0.09565217391304348,15,Stromunfall / Blitzschlag
+Treptow-Köpenick,16.0,265,714.0,0.07169811320754717,16,Augenprobleme / Verletzungen
+Treptow-Köpenick,17.0,20231,678.0,0.11620779991102763,17,Sturz / Absturz
+Treptow-Köpenick,18.0,1018,717.0,0.09724950884086445,18,Kopfschmerzen
+Treptow-Köpenick,19.0,7228,662.0,0.11981184283342557,19,Herzbeschwerden / Implantierter Defibrillator
+Treptow-Köpenick,20.0,164,714.5,0.11585365853658537,20,"Hitze-, Kälteprobleme"
+Treptow-Köpenick,21.0,5682,691.0,0.10225272791270679,21,Blutung / Wunden
+Treptow-Köpenick,23.0,4713,670.0,0.14109908762995968,23,Überdosis / Vergiftung (Einnahme)
+Treptow-Köpenick,24.0,1510,671.0,0.10264900662251655,24,Schwangerschaft / Geburt / Fehlgeburt
+Treptow-Köpenick,25.0,6425,712.0,0.10147859922178988,25,Psychiatrie / Abnormales Verhalten / Suizidversuch
+Treptow-Köpenick,26.0,9897,731.0,0.08931999595837123,26,Kranke Person (Spezielle Krankheitsbilder)
+Treptow-Köpenick,27.0,50,590.5,0.2,27,"Stich-, Schuss-, Pfählungsverletzung"
+Treptow-Köpenick,28.0,3838,676.0,0.12454403335070349,28,Schlaganfall / Transitorische Ischämische Attacke (TIA)
+Treptow-Köpenick,29.0,1464,565.0,0.2506830601092896,29,Verkehrsunfall
+Treptow-Köpenick,30.0,6996,682.0,0.11949685534591195,30,Verletzungen
+Treptow-Köpenick,31.0,11894,637.0,0.1570539767950227,31,Bewusstlosigkeit / Ohnmacht (Beinahe-)
+Treptow-Köpenick,32.0,1956,660.0,0.13445807770961146,32,Unklares Geschehen (Person in Notlage)
+Treptow-Köpenick,33.0,429,646.0,0.16783216783216784,33,Anforderung von Rettungsmittel durch Versorgungseinrichtung / Palliative Medizin / Einweisung
+Treptow-Köpenick,34.0,42,620.5,0.21428571428571427,34,AUM (Automatische Unfallmeldung)
