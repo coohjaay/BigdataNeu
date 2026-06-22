@@ -28,7 +28,7 @@ pip install -r requirements.txt
 ./setup_for_data.sh
 ```
 
-**Alternative:** Falls du dir das komplette BF-Open-Data-Repo anschauen willst, kannst du es auch komplett klonen. ACHTUNG! Das Repo ist sehr groß (über 6 GB), der Download kann 30+ Minuten dauern.
+**Alternative:** Falls das komplette BF-Open-Data-Repo gewünscht ist, kann es auch komplett geklont. ACHTUNG! Das Repo ist sehr groß (über 6 GB), der Download kann 30+ Minuten dauern.
 ```
 git clone https://github.com/Berliner-Feuerwehr/BF-Open-Data data/BF-Open-Data
 ```
