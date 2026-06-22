@@ -34,7 +34,7 @@ git clone https://github.com/Berliner-Feuerwehr/BF-Open-Data data/BF-Open-Data
 ```
 
 ## Notebook ausführen
-ACHTUNG! Das Ausführen des Notebooks kann auch bis zu 15 Minuten dauern!
+ACHTUNG! Das Ausführen des Notebooks kann auch 5-10 Minuten dauern!
 ```
 jupyter lab
 ```
