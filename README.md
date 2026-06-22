@@ -16,11 +16,15 @@ cd BigdataNeu
 ## Setup
 
 ```
-python3 -m venv venv
-source venv/bin/activate
+python3 -m venv .venv
+source .venv/bin/activate
 pip install -r requirements.txt
 ```
-
+ACHTUNG! Es ist vermehrt zu fehlern mit der urllib3 Bibliothek gekommen. Bei Fehlern bitte folgendes ausführen:
+```
+pip uninstall urllib3 -y
+pip install --no-cache-dir urllib3
+```
 ## Daten besorgen
 
 **Standard (empfohlen):** Lädt nur die Daten, die das Notebook tatsächlich braucht (ca. 650 MB).
