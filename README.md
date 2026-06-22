@@ -22,10 +22,15 @@ pip install -r requirements.txt
 ```
 
 ## Daten besorgen
-ACHTUNG! Der folgende Datensatz ist sehr groß. Der Download kann bis zu 30 Minuten dauern.
+
+**Standard (empfohlen):** Lädt nur die Daten, die das Notebook tatsächlich braucht (ca. 650 MB).
+```
+./setup_for_data.sh
+```
+
+**Alternative:** Falls du dir das komplette BF-Open-Data-Repo anschauen willst, kannst du es auch komplett klonen. ACHTUNG! Das Repo ist sehr groß (über 6 GB), der Download kann 30+ Minuten dauern.
 ```
 git clone https://github.com/Berliner-Feuerwehr/BF-Open-Data data/BF-Open-Data
-
 ```
 
 ## Notebook ausführen
